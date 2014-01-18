@@ -1,6 +1,6 @@
 ﻿#region File Information
 /*
- * Copyright (C) 2007-2014 David Rudie
+ * Copyright (C) 2012-2014 David Rudie
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,19 +18,8 @@
  */
 #endregion
 
-namespace Library.Forms
-{
-    using System;
-    using System.Windows.Forms;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 
-    public class ButtonNoFocus : Button
-    {
-        protected override bool ShowFocusCues
-        {
-            get
-            {
-                return false;
-            }
-        }
-    }
-}
+[assembly: AssemblyVersion("2.5.0.0")]

@@ -18,19 +18,8 @@
  */
 #endregion
 
-namespace Library.Forms
-{
-    using System;
-    using System.Windows.Forms;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 
-    public class ButtonNoFocus : Button
-    {
-        protected override bool ShowFocusCues
-        {
-            get
-            {
-                return false;
-            }
-        }
-    }
-}
+[assembly: AssemblyVersion("2.5.0.0")]

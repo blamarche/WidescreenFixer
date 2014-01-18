@@ -160,7 +160,7 @@ namespace WidescreenFixer
             {
                 try
                 {
-                    MessageBox.Show("Fatal Non-UI Error. Could not write the error to the event log. Reason: " + exception.Message, "Fatal Non-UI Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    MessageBox.Show("Fatal Non-UI Error. The error could not be written to the event log. Reason: " + exception.Message, "Fatal Non-UI Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 }
                 finally
                 {

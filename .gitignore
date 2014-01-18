@@ -110,6 +110,7 @@ UpgradeLog*.XML
 # Dopefish
 Build/
 SignAllTheThings.cmd
+Unmanaged.*.lib
 *.pfx
 *.snk
 *.swp

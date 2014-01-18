@@ -3,6 +3,7 @@ WIDESCREEN FIXER
 Copyright 2007-2014 David Rudie <d.rudie@gmail.com>
 Website: https://www.widescreenfixer.org/
 Project Page: https://github.com/dlrudie/WidescreenFixer
+Twitter: https://twitter.com/widescreenfixer
 
 ABOUT
 =====

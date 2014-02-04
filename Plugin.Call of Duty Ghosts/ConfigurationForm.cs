@@ -48,6 +48,8 @@ namespace Plugin.CallOfDutyGhosts
             this.FormClosed += new FormClosedEventHandler(this.Configuration_FormClosed);
 
             this.comboBoxGameVersion.DrawItem += new DrawItemEventHandler(this.ComboBoxGameVersion_DrawItem);
+            this.comboBoxGameVersion.Items.Add("v3.6 (Multi-Player)");
+            this.comboBoxGameVersion.Items.Add("v3.6 (Single-Player)");
             this.comboBoxGameVersion.Items.Add("v3.5 (Multi-Player)");
             this.comboBoxGameVersion.Items.Add("v3.5 (Single-Player)");
             this.comboBoxGameVersion.Items.Add("v3.4 (Multi-Player)");

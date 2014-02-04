@@ -183,6 +183,18 @@ namespace Plugin.CallOfDutyGhosts
                     this.offsetMovieVerticalScale = 0x5EA87EC;
                     break;
 
+                case "v3.6 (Single-Player)":
+                    this.ExeName = "iw6sp64_ship";
+                    this.offsetPokeMovieHorizontalResolution = 0x4E6FC9;
+                    this.movieHorizontalResolutionRestoreAddress = new byte[] { 0xE9, 0x80, 0x9C, 0x05 };
+                    this.offsetMenuStart = 0x13AF600;
+                    this.offsetViewAspectRatio = 0x14F2A10;
+                    this.offsetMouseHorizontal = 0x1624A64;
+                    this.offsetInterfaceStart = 0x17E1890;
+                    this.offsetBlur = 0x5EAF0E8;
+                    this.offsetMovieVerticalScale = 0x5EAF0EC;
+                    break;
+
                 case "v3.2 (Multi-Player)":
                     this.ExeName = "iw6mp64_ship";
                     this.offsetPokeMovieHorizontalResolution = -1;
@@ -227,15 +239,26 @@ namespace Plugin.CallOfDutyGhosts
                     this.offsetMovieVerticalScale = 0x7EEC46C;
                     break;
 
+                case "v3.6 (Multi-Player)":
+                    this.ExeName = "iw6mp64_ship";
+                    this.offsetPokeMovieHorizontalResolution = -1;
+                    this.offsetMenuStart = 0x1611C50;
+                    this.offsetViewAspectRatio = 0x1835C90;
+                    this.offsetMouseHorizontal = 0x1CD5770;
+                    this.offsetInterfaceStart = 0x1DD96F0;
+                    this.offsetBlur = 0x7F32BE8;
+                    this.offsetMovieVerticalScale = 0x7F32BEC;
+                    break;
+
                 default:
                     this.ExeName = "iw6mp64_ship";
                     this.offsetPokeMovieHorizontalResolution = -1;
-                    this.offsetMenuStart = 0x15FDDD0;
-                    this.offsetViewAspectRatio = 0x1824410;
-                    this.offsetMouseHorizontal = 0x1CBFA30;
-                    this.offsetInterfaceStart = 0x1DC7A50;
-                    this.offsetBlur = 0x7EEC468;
-                    this.offsetMovieVerticalScale = 0x7EEC46C;
+                    this.offsetMenuStart = 0x1611C50;
+                    this.offsetViewAspectRatio = 0x1835C90;
+                    this.offsetMouseHorizontal = 0x1CD5770;
+                    this.offsetInterfaceStart = 0x1DD96F0;
+                    this.offsetBlur = 0x7F32BE8;
+                    this.offsetMovieVerticalScale = 0x7F32BEC;
                     break;
             }
         }
